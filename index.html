@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Birthday♡Cake</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="cake.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #mainTitle {
+        font-size: 32px;
+        font-family: 'Pixelify Sans', sans-serif;
+        margin-bottom: 8px;
+      }
+
+      #subTitle {
+        font-size: 18px;
+        font-family: 'Pixelify Sans', sans-serif;
+        color: #555;
+      }
+
+      /* Simple start button styling in case browser requires click to start mic */
+      #startBtn {
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-top: 10px;
+        border: none;
+        background-color: #ff6e616a;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 10px;
+        
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="birthdayText"></div>
+      <div class="cake-container">
+
+        <div class="cake" id="cake">
+            <img src="cake.png" alt="cake"/>
+            <div id="candles"></div>
+    </div>
+      <button id="startBtn">Click to Enable Mic & Blow♡!</button>
+    </div>
+
+    <script src="index.js"></script>
+     
+    </script>
+  </body>
+</html>
