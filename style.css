@@ -1,8 +1,12 @@
 * {
     font-family: "Pixelify Sans", sans-serif;
-    background-color: #ffcaa7;
+    
 }
 body {
+  background-image:url('bg_default.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
   margin: 0;
   padding: 0;
   font-family: 'Pixelify Sans', sans-serif;
